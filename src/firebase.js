@@ -2,9 +2,9 @@
 import firebase from "firebase"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA06YkX7JCY03VaKGUj01cg0FCRMxunOQ8",
-  authDomain: "slack-clone-c7667.firebaseapp.com",
-  databaseURL: "https://slack-clone-c7667.firebaseio.com",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTHDOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE,
   projectId: "slack-clone-c7667",
   storageBucket: "slack-clone-c7667.appspot.com",
   messagingSenderId: "410287697267",
